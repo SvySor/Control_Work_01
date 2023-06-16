@@ -30,3 +30,4 @@ def write(notes):
     string = string[:-1]
     file.writelines(string)  
         
+  
