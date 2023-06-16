@@ -8,3 +8,5 @@ Created 'Notebook' with the folloing functions:
 4. Edit single note
 5. Delete note
 6. Check exceptions for empty notebook
+
+Напишите проект, содержащий функционал работы с заметками. Программа должна уметь создавать заметку, сохранять её, читать список заметок, редактировать заметку, удалять заметку.
