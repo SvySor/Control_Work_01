@@ -1,5 +1,6 @@
-from note import Note
-from data import read, write
+from data import read
+from menu import menu
 
 if __name__ == '__main__':
-  pass
+  notes = read()
+  menu(notes)

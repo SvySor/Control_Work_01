@@ -37,3 +37,8 @@ class Note():
 
   def set_time_edit(self, time_edit):
     self.time_edit = time_edit
+
+  def __repr__(self):
+    return f"id = {self.id}, head = {self.head}, body = {self.body}, create time = {self.time_create}, edit time = {self.time_edit}"
+
+note1 = Note(1, 'Заголовок', 'Что-то', datetime.now(), datetime.now())
